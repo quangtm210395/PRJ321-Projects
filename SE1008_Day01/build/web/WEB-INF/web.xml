@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <context-param>
+        <param-name>configParam</param-name>
+        <param-value>This is config value</param-value>
+    </context-param>
+    <listener>
+        <description>ServletContextListener</description>
+        <listener-class>listener.MyContextListener</listener-class>
+    </listener>
+    <listener>
+        <description>ServletContextListener, HttpSessionListener</description>
+        <listener-class>listener.MySessionListener</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-class>servlet01.HelloWorldServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CustomUrlServlet</servlet-name>
+        <servlet-class>servlet01.CustomUrlServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PostDemo</servlet-name>
+        <servlet-class>servlet01.PostDemo</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>FormHandling01</servlet-name>
+        <servlet-class>servlet01.FormHandling01</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ForwardServletDemo</servlet-name>
+        <servlet-class>servlet02.ForwardServletDemo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <url-pattern>/HelloWorldServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CustomUrlServlet</servlet-name>
+        <url-pattern>/myservlet.html</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PostDemo</servlet-name>
+        <url-pattern>/PostDemo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FormHandling01</servlet-name>
+        <url-pattern>/FormHandling01</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ForwardServletDemo</servlet-name>
+        <url-pattern>/ForwardServletDemo</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

@@ -1,0 +1,12 @@
+@keyframes fade-out-in {
+  0%, 100% {
+    opacity: 1;
+  }
+  45%, 55% {
+    opacity: 0;
+  }
+}
+
+.slider-fade {
+  animation: fade-out-in 1s linear;
+}

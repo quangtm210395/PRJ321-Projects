@@ -1,0 +1,38 @@
+SMAP
+createNewPost_jsp.java
+JSP
+*S JSP
+*F
++ 0 createNewPost.jsp
+createNewPost.jsp
++ 1 headerScript.jsp
+included/headerScript.jsp
++ 2 header.jsp
+included/header.jsp
++ 3 postEditor.jsp
+included/postEditor.jsp
++ 4 footerScript.jsp
+included/footerScript.jsp
+*L
+5,10:52
+14,5:62
+5#1,29:67
+18#0,7:96
+5#2,2:103
+8,5:106
+12,23:111
+35:134,3
+36,7:137
+43:144,3
+44,37:147
+80:183
+24#0,31:184
+5#3,5:215
+10:220,3
+11,21:223
+54#0,21:243
+75:264,2
+76,2:266
+5#4,57:268
+77#0,4:324
+*E

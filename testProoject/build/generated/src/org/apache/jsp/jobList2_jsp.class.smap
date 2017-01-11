@@ -1,0 +1,21 @@
+SMAP
+jobList2_jsp.java
+JSP
+*S JSP
+*F
++ 0 jobList2.jsp
+jobList2.jsp
++ 1 header.jsp
+included/header.jsp
++ 2 body.jsp
+included/body.jsp
++ 3 footer.jsp
+included/footer.jsp
+*L
+5,2:51
+5#1,51:53
+7#0,2:104
+5#2,51:106
+9#0,285:156
+5#3,145:440
+*E

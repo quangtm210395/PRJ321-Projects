@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Project PRO201 - Le Cao Nguyen - SE04555</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/topbar.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <script src="js/main.js" type="text/javascript"></script>
+  </head>
+  <body onload="initialize()">
+    <div id="main-container">
+      <div id="top-bar">
+        <div id="top-search-box">
+          <div id="advanced-search"><a href="#">Advanced search</a></div>
+          <input type="text" id="search-input"/>
+          <input type="image" src="images/search.gif" id="search-button"/>
+        </div>
+        <div id="lang-select">
+          <div id="lang-caption">Languages:</div>
+          <ul id="lang-list">
+            <li><a href="#"><img src="images/en.gif"/></a></li>
+            <li><a href="#"><img src="images/de.gif"/></a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="header">
+        <div id="store-logo">
+          <a href="#"><img src="images/logo.png"/></a>
+        </div>
+        <div class="header-divider"></div>
+        <div id="slider">
+          <div id="slider-content">
+            <div id="slider-image">
+              <img src=""/>
+            </div>
+            <div id="slider-detail">
+              <div id="slider-name"></div>
+              <div id="slider-description">
+              </div>
+              <div id="slider-detail-button">
+                <a href="#">Details</a>
+              </div>
+            </div>
+          </div>
+          <div id="slider-pagination">
+            <ul id="slider-pagination-buttons">
+              <li><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="header-divider"></div>
+      </div>
+      <div id="nav">
+        <div id="menu-bar">
+          <div id="menu-bar-left"></div>
+          <div id="menu-bar-center">
+            <ul id="menu-bar-buttons">
+              <li><img src="images/home.png"/><a href="#">Home</a></li>
+              <li class="menu-bar-divider"></li>
+              <li><img src="images/services.png"/><a href="#">Products</a></li>
+              <li class="menu-bar-divider"></li>
+              <li><img src="images/favs.png"/><a href="#">Specials</a></li>
+              <li class="menu-bar-divider"></li>
+              <li><img src="images/user_add.png"/><a href="#">My Account</a></li>
+              <li class="menu-bar-divider"></li>
+              <li><img src="images/user_add.png"/><a href="#">Sign Up</a></li>
+              <li class="menu-bar-divider"></li>
+              <li><img src="images/car.png"/><a href="#">Shipping</a></li>
+              <li class="menu-bar-divider"></li>
+              <li><img src="images/contact-new.png"/><a href="#">Contact Us</a></li>
+              <li class="menu-bar-divider"></li>
+              <li>
+                <span>Currencies</span>
+                <select class="currency-dropbox" name="">
+                  <option value="USD" selected>US Dollar</option>
+                  <option value="VND">Vietnamese Dong</option>
+                </select>
+              </li>
+            </ul>
+          </div>
+          <div id="menu-bar-right"></div>
+        </div>
+        <div id="crumb-navigation">
+          <span>Navigation:</span>
+          <a href="#" id="crumb-navigation-link"></a>
+        </div>
+      </div>
+      <div id="main-content">
+        <div id="left-content">
+          <div id="categories" class="box">
+            <div class="box-title">Categories</div>
+            <div class="menu-box-content">
+              <ul class="menu-box-items">
+                <li><a href="#">Processors</a></li>
+                <li><a href="#">Motherboard</a></li>
+                <li><a href="#">Desktops</a></li>
+                <li><a href="#">Laptops &amp; Notebooks</a></li>
+                <li><a href="#">Processors</a></li>
+                <li><a href="#">Motherboard</a></li>
+                <li><a href="#">Desktops</a></li>
+                <li><a href="#">Laptops &amp; Notebooks</a></li>
+                <li><a href="#">Processors</a></li>
+                <li><a href="#">Motherboard</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="special-products" class="box">
+            <div class="box-title">Special Products</div>
+            <div class="display-box-content">
+              <div class="product-description">
+                <div class="product-name"><a href="#">Motorola 156 MX-VL</a></div>
+                <div class="product-image"><img src="images/laptop.png"/></div>
+                <div class="product-price">
+                  <span class="old-price">$350</span>
+                  <span class="price">$270</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="newsletter-subscribe" class="box">
+            <div class="box-title">Newsletter</div>
+            <div class="subscribe-box-content">
+              <input type="email" class="subscribe-email-input" placeholder="Your email"/>
+              <div class="subscribe-join-link">
+                <a href="#">Join</a>
+                <img src="images/blue-add.png"/>
+              </div>
+            </div>
+          </div>
+          <div id="ad1" class="box">
+            <div class="ads-box-content"><img src="images/bann2.jpg"/></div>
+          </div>
+        </div>
+        <div id="center-content">
+          <div id="latest-products" class="product-grid">
+            <div class="product-grid-title"><span>Latest Products</span></div>
+            <ul class="product-grid-content">
+              <li class="product-grid-left">
+                <div class="product-box">
+                  <div class="product-box-top"></div>
+                  <div class="product-box-center">
+                    <div class="product-description">
+                      <div class="product-name"><a href="#">Motorola 156 MX-VL</a></div>
+                      <div class="product-image"><img src="images/laptop.png"/></div>
+                      <div class="product-price">
+                        <span class="old-price">$350</span>
+                        <span class="price">$270</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-box-bottom"></div>
+                  <div class="product-box-bar">
+                    <a href="#" class="left-button add-to-cart-button"></a>
+                    <a href="#" class="left-button rate-button"></a>
+                    <a href="#" class="left-button favorite-button"></a>
+                    <a href="#" class="right-button details-button">Details</a>
+                  </div>
+                </div>
+              </li>
+              <li class="product-grid-center">
+                <div class="product-box">
+                  <div class="product-box-top"></div>
+                  <div class="product-box-center">
+                    <div class="product-description">
+                      <div class="product-name"><a href="#">Apple iPhone</a></div>
+                      <div class="product-image"><img src="images/iphone.png"/></div>
+                      <div class="product-price">
+                        <span class="price">$270</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-box-bottom"></div>
+                  <div class="product-box-bar">
+                    <a href="#" class="left-button add-to-cart-button"></a>
+                    <a href="#" class="left-button rate-button"></a>
+                    <a href="#" class="left-button favorite-button"></a>
+                    <a href="#" class="right-button details-button">Details</a>
+                  </div>
+                </div>
+              </li>
+              <li class="product-grid-right">
+                <div class="product-box">
+                  <div class="product-box-top"></div>
+                  <div class="product-box-center">
+                    <div class="product-description">
+                      <div class="product-name"><a href="#">Samsung Webcam</a></div>
+                      <div class="product-image"><img src="images/camera.png"/></div>
+                      <div class="product-price">
+                        <span class="old-price">$350</span>
+                        <span class="price">$270</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-box-bottom"></div>
+                  <div class="product-box-bar">
+                    <a href="#" class="left-button add-to-cart-button"></a>
+                    <a href="#" class="left-button rate-button"></a>
+                    <a href="#" class="left-button favorite-button"></a>
+                    <a href="#" class="right-button details-button">Details</a>
+                  </div>
+                </div>
+              </li>
+              <li class="product-grid-left">
+                <div class="product-box">
+                  <div class="product-box-top"></div>
+                  <div class="product-box-center">
+                    <div class="product-description">
+                      <div class="product-name"><a href="#">Motorola 156 MX-VL</a></div>
+                      <div class="product-image"><img src="images/laptop.png"/></div>
+                      <div class="product-price">
+                        <span class="old-price">$350</span>
+                        <span class="price">$270</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-box-bottom"></div>
+                  <div class="product-box-bar">
+                    <a href="#" class="left-button add-to-cart-button"></a>
+                    <a href="#" class="left-button rate-button"></a>
+                    <a href="#" class="left-button favorite-button"></a>
+                    <a href="#" class="right-button details-button">Details</a>
+                  </div>
+                </div>
+              </li>
+              <li class="product-grid-center">
+                <div class="product-box">
+                  <div class="product-box-top"></div>
+                  <div class="product-box-center">
+                    <div class="product-description">
+                      <div class="product-name"><a href="#">Apple iPhone</a></div>
+                      <div class="product-image"><img src="images/iphone.png"/></div>
+                      <div class="product-price">
+                        <span class="price">$270</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-box-bottom"></div>
+                  <div class="product-box-bar">
+                    <a href="#" class="left-button add-to-cart-button"></a>
+                    <a href="#" class="left-button rate-button"></a>
+                    <a href="#" class="left-button favorite-button"></a>
+                    <a href="#" class="right-button details-button">Details</a>
+                  </div>
+                </div>
+              </li>
+              <li class="product-grid-right">
+                <div class="product-box">
+                  <div class="product-box-top"></div>
+                  <div class="product-box-center">
+                    <div class="product-description">
+                      <div class="product-name"><a href="#">Samsung Webcam</a></div>
+                      <div class="product-image"><img src="images/camera.png"/></div>
+                      <div class="product-price">
+                        <span class="old-price">$350</span>
+                        <span class="price">$270</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-box-bottom"></div>
+                  <div class="product-box-bar">
+                    <a href="#" class="left-button add-to-cart-button"></a>
+                    <a href="#" class="left-button rate-button"></a>
+                    <a href="#" class="left-button favorite-button"></a>
+                    <a href="#" class="right-button details-button">Details</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="recommended-products" class="product-grid">
+            <div class="product-grid-title"><span>Recommended Products</span></div>
+            <ul class="product-grid-content">
+              <li class="product-grid-left">
+                <div class="product-box">
+                  <div class="product-box-top"></div>
+                  <div class="product-box-center">
+                    <div class="product-description">
+                      <div class="product-name"><a href="#">Motorola 156 MX-VL</a></div>
+                      <div class="product-image"><img src="images/laptop.png"/></div>
+                      <div class="product-price">
+                        <span class="old-price">$350</span>
+                        <span class="price">$270</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-box-bottom"></div>
+                  <div class="product-box-bar">
+                    <a href="#" class="left-button add-to-cart-button"></a>
+                    <a href="#" class="left-button rate-button"></a>
+                    <a href="#" class="left-button favorite-button"></a>
+                    <a href="#" class="right-button details-button">Details</a>
+                  </div>
+                </div>
+              </li>
+              <li class="product-grid-center">
+                <div class="product-box">
+                  <div class="product-box-top"></div>
+                  <div class="product-box-center">
+                    <div class="product-description">
+                      <div class="product-name"><a href="#">Apple iPhone</a></div>
+                      <div class="product-image"><img src="images/iphone.png"/></div>
+                      <div class="product-price">
+                        <span class="price">$270</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-box-bottom"></div>
+                  <div class="product-box-bar">
+                    <a href="#" class="left-button add-to-cart-button"></a>
+                    <a href="#" class="left-button rate-button"></a>
+                    <a href="#" class="left-button favorite-button"></a>
+                    <a href="#" class="right-button details-button">Details</a>
+                  </div>
+                </div>
+              </li>
+              <li class="product-grid-right">
+                <div class="product-box">
+                  <div class="product-box-top"></div>
+                  <div class="product-box-center">
+                    <div class="product-description">
+                      <div class="product-name"><a href="#">Samsung Webcam</a></div>
+                      <div class="product-image"><img src="images/camera.png"/></div>
+                      <div class="product-price">
+                        <span class="old-price">$350</span>
+                        <span class="price">$270</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-box-bottom"></div>
+                  <div class="product-box-bar">
+                    <a href="#" class="left-button add-to-cart-button"></a>
+                    <a href="#" class="left-button rate-button"></a>
+                    <a href="#" class="left-button favorite-button"></a>
+                    <a href="#" class="right-button details-button">Details</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="right-content">
+          <div id="shopping-cart" class="box">
+            <div class="cart-box-title">Shopping cart</div>
+            <div class="cart-box-content">
+              <div class="cart-box-details">
+                <span class="cart-box-item-no">3</span> items<br>
+                <span class="cart-box-separator"></span><br>
+                Total: <span class="cart-box-total-amount">$350</span>
+              </div>
+              <div class="cart-box-image"><img src="images/shoppingcart.png"></div>
+            </div>
+          </div>
+          <div id="new-products" class="box" >
+            <div class="box-title">What's new</div>
+            <div class="display-box-content">
+              <div class="product-description">
+                <div class="product-name"><a href="#">Motorola 156 MX-VL</a></div>
+                <div class="product-image"><img src="images/p2.gif"/></div>
+                <div class="product-price">
+                  <span class="old-price">$350</span>
+                  <span class="price">$270</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="manufacturers" class="box">
+            <div class="box-title">Manufacturers</div>
+            <div class="menu-box-content">
+              <ul class="menu-box-items">
+                <li><a href="#">Sony</a></li>
+                <li><a href="#">Samsung</a></li>
+                <li><a href="#">Daewoo</a></li>
+                <li><a href="#">LG</a></li>
+                <li><a href="#">Fujitsu Siemens</a></li>
+                <li><a href="#">Motorola</a></li>
+                <li><a href="#">Philips</a></li>
+                <li><a href="#">Beko</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="ad2" class="box">
+            <div class="ads-box-content"><img src="images/bann1.jpg"/></div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="left-footer">
+          <img src="images/footer_logo.png"/>
+        </div>
+        <div id="center-footer">
+          Template name. All rights reserved<br>
+          2008<br>
+          <img src="images/csscreme.jpg">
+        </div>
+        <div id="right-footer">
+          <ul id="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Site map</a></li>
+            <li><a href="#">RSS</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

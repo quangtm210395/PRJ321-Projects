@@ -1,0 +1,52 @@
+SMAP
+posts_jsp.java
+JSP
+*S JSP
+*F
++ 0 posts.jsp
+posts.jsp
++ 1 headerScript.jsp
+included/headerScript.jsp
++ 2 postContents.jsp
+included/postContents.jsp
++ 3 footer.jsp
+included/footer.jsp
++ 4 footerScript.jsp
+included/footerScript.jsp
+*L
+5,9:57
+13,6:66
+5#1,30:72
+18#0,93:101
+5#2,53:194
+57,7:247
+64:254,6
+65:260
+66,2:262
+67:264
+68:265,3
+69:268
+70,2:270
+71,3:272
+74:275,7
+75,3:282
+78:285,3
+79,11:288
+89,4:299
+93:303,3
+94,2:306
+96,2:309
+97:311
+98:312,6
+99:318
+100,2:320
+101:322
+102:323,3
+103,10:326
+112:336
+110#0,23:337
+5#3,201:360
+132#0,3:561
+5#4,59:564
+134#0,4:622
+*E

@@ -1,0 +1,47 @@
+#footer {
+  clear: both;
+  height: 61px;
+  background: url(../images/footer_bg.gif) repeat-x center;
+}
+
+#left-footer {
+  width: 340px;
+  padding: 5px 0 0 10px;
+  float: left;
+  text-align: left;
+}
+
+#center-footer {
+  width: 280px;
+  padding: 10px 0 0 0;
+  float: left;
+  text-align: center;
+}
+
+#right-footer {
+  width: 340px;
+  padding: 15px 10px 0 0;
+  float: left;
+  text-align: right;
+}
+
+ul#footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul#footer-links li {
+  display: inline;
+  padding: 0 5px 0 0;
+}
+
+ul#footer-links li a {
+  text-decoration: none;
+  color: #666666;
+  font-weight: bold;
+}
+
+ul#footer-links li a:hover {
+  text-decoration: underline;
+}

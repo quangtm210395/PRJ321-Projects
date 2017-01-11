@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/PRJ321_TranMinhQuang_SE04402_Lab5">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+            maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/Lab5_DB" password="123456"
+            type="javax.sql.DataSource" url="jdbc:sqlserver://localhost:1433;databaseName=Lab5_DB" username="sa"/>
+</Context>

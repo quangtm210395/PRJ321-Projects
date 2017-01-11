@@ -1,0 +1,22 @@
+SMAP
+postJob_jsp.java
+JSP
+*S JSP
+*F
++ 0 postJob.jsp
+postJob.jsp
++ 1 header.jsp
+included/header.jsp
++ 2 body.jsp
+included/body.jsp
++ 3 footer.jsp
+included/footer.jsp
+*L
+5,2:51
+5#1,52:53
+7#0,2:105
+5#2,51:107
+9#0,151:157
+5#3,151:307
+159#0,22:457
+*E

@@ -1,0 +1,121 @@
+#header {
+  clear: both;
+  width: 100%;
+  height: 173px;
+  background: url(../images/header_bg.jpg) no-repeat #fff center top;
+}
+
+.header-divider {
+  float: left;
+  width: 1px;
+  height: 164px;
+  background: url(../images/header_divider.png) no-repeat center top;
+}
+
+#store-logo {
+  float: left;
+  width: 270px;
+  padding: 15px;
+}
+
+#store-logo img {
+  max-width: 270px;
+}
+
+#slider {
+  float: left;
+  width: 550px;
+  padding: 15px 30px 0 30px;
+}
+
+#slider-content {
+  height: 100px;
+}
+
+#slider-image {
+  float: left;
+  width: 100px;
+  height: 100%;
+  text-align: center;
+}
+
+#slider-image img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+#slider-detail {
+  /* width = #slider.width - #slider-image.width - padding-left */
+  float: left;
+  width: 430px;
+  padding-left: 20px;
+}
+
+#slider-name {
+  font-size: 15px;
+  color: #b72c24;
+  font-weight: bold;
+  height: 20px;
+}
+
+#slider-description {
+  padding: 5px 0 5px 0;
+  font-size: 12px;
+  color: #fff;
+  text-align:justify;
+  height: 50px;
+  overflow: hidden;
+}
+
+#slider-detail-button {
+  width: 83px;
+  height: 20px;
+  float: right;
+  background: url(../images/details_bt_bg.gif) no-repeat center;
+  text-align: center;
+}
+
+#slider-detail-button a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: #000000;
+  line-height: 20px;
+}
+
+#slider-pagination {
+  float: left;
+  font-size: 10px;
+  padding: 10px 0 0 10px;
+}
+
+ul#slider-pagination-buttons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul#slider-pagination-buttons li {
+  float: left;
+  margin-right: 5px;
+}
+
+ul#slider-pagination-buttons li a {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: url(../images/pag_bg.gif) no-repeat center;
+  text-align: center;
+  text-decoration: none;
+  color: #9d8b8b;
+  line-height: 22px;
+}
+
+ul#slider-pagination-buttons li a:hover {
+  background: url(../images/pag_bg_a.gif) no-repeat center;
+  color: #ad1614;
+}
+
+ul#slider-pagination-buttons li a.selected-button {
+  background: url(../images/pag_bg_a.gif) no-repeat center;
+  color: #ad1614;
+}

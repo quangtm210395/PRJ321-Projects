@@ -1,0 +1,46 @@
+SMAP
+listProducts_jsp.java
+JSP
+*S JSP
+*F
++ 0 listProducts.jsp
+listProducts.jsp
++ 1 headerScript.jsp
+included/headerScript.jsp
++ 2 header.jsp
+included/header.jsp
++ 3 listProductContent.jsp
+included/listProductContent.jsp
++ 4 footer.jsp
+included/footer.jsp
++ 5 footerScript.jsp
+included/footerScript.jsp
+*L
+5,8:55
+5#1,30:63
+12#0,7:92
+5#2,84:99
+18#0,27:183
+5#3,9:210
+13,9:219
+22,11:229
+32,16:240
+48,8:257
+55:265
+56:266,3
+57,10:269
+67,9:280
+75:289
+76,2:290,3
+78:296
+79:297,5
+80:302,3
+81,3:305
+84,7:309
+90,18:316
+44#0,22:333
+5#4,201:355
+65#0,3:556
+5#5,32:559
+67#0,4:590
+*E
